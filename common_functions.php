@@ -1,6 +1,6 @@
 <?php
 // Establish database connection
-$conn = mysqli_connect("localhost", "root", "", "authentication");
+$conn = mysqli_connect("localhost", "root", "", "project2");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }

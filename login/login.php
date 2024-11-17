@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Connect to the MySQL database
-$conn = mysqli_connect("localhost", "root", "", "authentication");
+$conn = mysqli_connect("localhost", "root", "", "project2");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
